@@ -1,0 +1,30 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			
+			"folder_exclude_patterns": [
+				".dep"
+			],
+
+			"file_exclude_patterns": [
+				"*.lst", 
+				"*.hex", 
+				"*.sym", 
+				"*.lss", 
+				"*.elf",
+				"*.map",
+			]
+		}
+	],
+
+	"build_systems":
+	[
+		{
+			"name": "Run Makefile",
+			"working_dir": "$project_path",
+			"cmd": "make",
+		}
+	]
+}
