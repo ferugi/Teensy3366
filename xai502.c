@@ -259,6 +259,12 @@ static inline int8_t wheel_read(void) {
 		b = 0;
 	}
 	
+	// Using read method outlined in post from Circuits @ Home
+	// Post found here (note that the license in the header does not apply for 
+	// parts copied from here):
+	// https://www.circuitsathome.com/mcu/reading-rotary-encoder-on-arduino
+
+	// Combine old and current A & B to form integer between 0 and 16
 	static uint8_t a_b;
 	a_b <<= 2;
 	a_b |= (((a << 1) | b) & 0x03);
