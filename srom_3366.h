@@ -1,3 +1,4 @@
+// Credits to Overclock.net user qsxcv for the ROM
 #define SROM_LENGTH (4094)
 
 uint8_t PROGMEM srom[SROM_LENGTH] = 
