@@ -3,3 +3,6 @@ Code for Teensy 2.0 with 3.3v voltage regulator that interfaces with the Pixart 
 
 Requries SROM from 
 http://pastebin.com/WsLCeCdE
+
+See thread here for more details:
+http://www.overclock.net/t/1561041/reverse-engineering-3366
