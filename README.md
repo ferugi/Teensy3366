@@ -11,7 +11,7 @@ Here's everything that I used, but remember this isn't what I'd recommend.
 
 ### Hardware: 
 * Logitech G502
-* 2nd Hand [Steelseries Xai](http://www.amazon.co.uk/gp/product/B00YUJ6OSE)
+* 2nd Hand [Steelseries Xai](https://www.amazon.co.uk/SteelSeries-Xai-Laser-Gaming-Mouse/dp/B002J9G5B8)
 * [Teensy 2.0 USB Development Board](https://www.pjrc.com/store/teensy.html)
 * Voltage Regulator // Add link
 * [Adafruit FPC Stick](https://www.adafruit.com/products/1325)
