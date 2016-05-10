@@ -28,7 +28,6 @@
 #include <util/delay.h>
 #include "usb_mouse.h"
 #include "srom_3366.h"
-#include "uart.h"
 
 #define BAUD_RATE 38400
 
@@ -315,16 +314,6 @@ static void enter_bootloader_mode(void) {
 	TCNT1 = 0;
 }
 
-static void uart_handle_input(void) {
-	uint8_t input_byte = uart_getchar();
-	switch (input_byte) {
-		case 0xFF:
-			enter_bootloader_mode();
-		default:
-			set_dpi(input_byte);
-	}
-}
-
 int main(void) {
 	// Set clock prescaler for 8MHz
 	CLKPR = 0x80;
@@ -338,7 +327,6 @@ int main(void) {
 
 	spi_init();
 	
-	uart_init(BAUD_RATE);
 	//eeprom_init();
 
 	sensor_init();
@@ -378,11 +366,6 @@ int main(void) {
 		while(!(UDINT & (1<<SOFI))); // Wait until Start Of Frame occurs
 		TCNT1 = 0; // Reset Timer Count
 		SS_HIGH();
-
-		// Serial Comms
-		if ( uart_available() ) {
-			uart_handle_input();
-		}
 
 		// Button Read Loop
 		uint8_t button_mask = 0;

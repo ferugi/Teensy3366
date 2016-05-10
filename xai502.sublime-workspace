@@ -1,0 +1,1294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rai",
+				"raise_dpi_step"
+			],
+			[
+				"BUTT",
+				"BUTTON_DPI"
+			],
+			[
+				"_del",
+				"_delay_ms"
+			],
+			[
+				"BUTTON",
+				"BUTTON_DPI"
+			],
+			[
+				"but",
+				"button_mask"
+			],
+			[
+				"Butt",
+				"BUTTON_LEFT"
+			],
+			[
+				"wheel",
+				"wheel_value"
+			],
+			[
+				"SURF",
+				"SURFACE_TUNING_VALUE_1"
+			],
+			[
+				"stored_dpi",
+				"stored_dpi_index"
+			],
+			[
+				"DPI",
+				"set_dpi"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"eepr",
+				"eeprom_write_byte"
+			],
+			[
+				"DEF",
+				"DPI_DEFAULTS"
+			],
+			[
+				"stored",
+				"stored_dpi_array"
+			],
+			[
+				"stor",
+				"stored_dpi_index"
+			],
+			[
+				"array",
+				"array_size"
+			],
+			[
+				"ee",
+				"eeprom_read_byte"
+			],
+			[
+				"DPI_",
+				"DPI_DEFAULT_SIZE"
+			],
+			[
+				"uin",
+				"uint8_t"
+			],
+			[
+				"DPI_DEF",
+				"DPI_DEFAULT_SIZE"
+			],
+			[
+				"read_dpi",
+				"read_dpi_index"
+			],
+			[
+				"read",
+				"read_dpi_array_size"
+			],
+			[
+				"write",
+				"write_dpi_array_size"
+			],
+			[
+				"first",
+				"DPI_FIRST_MULTI_ADDR"
+			],
+			[
+				"eepmr",
+				"eeprom_write_byte"
+			],
+			[
+				"FIRS",
+				"DPI_FIRST_MULTI_ADDR"
+			],
+			[
+				"dpi_i",
+				"dpi_init"
+			],
+			[
+				"DEFA",
+				"DPI_DEFAULT_MULTI"
+			],
+			[
+				"arr",
+				"array_size"
+			],
+			[
+				"read_D",
+				"read_dpi_array_size"
+			],
+			[
+				"curr",
+				"current_step"
+			],
+			[
+				"eeprom_",
+				"eeprom_read_byte"
+			],
+			[
+				"DPI_STE",
+				"DPI_MAX_STEPS"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"dpi",
+				"dpi_multi"
+			],
+			[
+				"spi_",
+				"spi_reg_write"
+			],
+			[
+				"FOR",
+				"BUTTON_FORWARD"
+			],
+			[
+				"u",
+				"uint8_t"
+			],
+			[
+				"WH",
+				"WHEEL_B"
+			],
+			[
+				"PIN_",
+				"PIN_WHEEL"
+			],
+			[
+				"ab",
+				"a_b"
+			],
+			[
+				"int",
+				"int8_t"
+			],
+			[
+				"a_b",
+				"a_b"
+			],
+			[
+				"WHEEL",
+				"WHEEL_A"
+			],
+			[
+				"wh",
+				"wheel"
+			],
+			[
+				"WHEE",
+				"WHEEL_B"
+			],
+			[
+				"PIN",
+				"PIN_WHEEL"
+			],
+			[
+				"x",
+				"x_high"
+			],
+			[
+				"Port",
+				"PORT_BUTTON"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"WEapo",
+				"WeaponData	WeaponData"
+			],
+			[
+				"Loadlevel",
+				"LoadLevelAdditive(string name)	void"
+			],
+			[
+				"loadleve",
+				"LoadLevelAdditive(int index)	void"
+			],
+			[
+				"User",
+				"UserInterface	UserInterface"
+			],
+			[
+				"Back",
+				"BackPressed	BackPressed"
+			],
+			[
+				"load",
+				"loadedLevelName	string { get; }"
+			],
+			[
+				"HUD",
+				"HUDCanvas	GameObject { get; set; }"
+			],
+			[
+				"leve",
+				"loadedLevel	int { get; }"
+			],
+			[
+				"menuc",
+				"MenuCanvas	GameObject { get; set; }"
+			],
+			[
+				"Hud",
+				"HUD	HUD"
+			],
+			[
+				"Load",
+				"LoadLevel(string name)	void"
+			],
+			[
+				"Find",
+				"Find(string name)	GameObject"
+			],
+			[
+				"Round",
+				"RoundData	RoundData"
+			],
+			[
+				"Game",
+				"GameManager	GameManager"
+			],
+			[
+				"Gam",
+				"GameManager	GameManager"
+			],
+			[
+				"Stream",
+				"StreamReader	StreamReader"
+			],
+			[
+				"Strea",
+				"StreamReader	StreamReader"
+			],
+			[
+				"De",
+				"Degrees360	float"
+			],
+			[
+				"Data",
+				"DataManager	DataManager"
+			],
+			[
+				"_pr",
+				"_propertyValue	float"
+			],
+			[
+				"PropertyCha",
+				"PropertyChangedEventArgs	PropertyChangedEventArgs"
+			],
+			[
+				"MousePad",
+				"MousePadAreaInDots	Vector2 { get; set; }"
+			],
+			[
+				"Ins",
+				"Instance	Settings { get; }"
+			],
+			[
+				"In",
+				"Instance	Settings { get; }"
+			],
+			[
+				"FieldOfView",
+				"FieldOfViewVertical	float { get; set; }"
+			],
+			[
+				"MouseD",
+				"MouseDPI	int { get; set; }"
+			],
+			[
+				"_",
+				"_verticalFOV	float"
+			],
+			[
+				"Colr",
+				"Color	Color"
+			],
+			[
+				"Color",
+				"Color32	Color32"
+			],
+			[
+				"sens",
+				"_sensitivity	int"
+			],
+			[
+				"input",
+				"InputField	InputField"
+			],
+			[
+				"_d",
+				"_displayComponent	MonoBehaviour"
+			],
+			[
+				"neste",
+				"_nestedClass	string"
+			],
+			[
+				"Method",
+				"MethodBody	MethodBody"
+			],
+			[
+				"field",
+				"FieldInfo	FieldInfo"
+			],
+			[
+				"PropertyChan",
+				"PropertyChangedEventHandler	PropertyChangedEventHandler"
+			],
+			[
+				"propertch",
+				"PropertyChangedEventArgs(string propertyName)	PropertyChangedEventArgs(string propertyName)"
+			],
+			[
+				"n",
+				"GetMethodInfo()	MethodInfo"
+			],
+			[
+				"Input",
+				"InputField	InputField"
+			],
+			[
+				"C",
+				"_current	Settings"
+			],
+			[
+				"v",
+				"Vector3	Vector3"
+			],
+			[
+				"Vec",
+				"Vector3	Vector3"
+			],
+			[
+				"UnityE",
+				"UnityEngine	UnityEngine"
+			],
+			[
+				"Vecor2",
+				"Vector2(float x, float y)	Vector2(float x, float y)"
+			],
+			[
+				"Cro",
+				"CrosshairStyles	CrosshairStyles"
+			],
+			[
+				"Crosshair",
+				"CrosshairColor	Color32 { get; set; }"
+			],
+			[
+				"color",
+				"Color	Color"
+			],
+			[
+				"unity",
+				"UnityEngine	UnityEngine"
+			],
+			[
+				"St",
+				"Style	CrosshairStyles { get; set; }"
+			],
+			[
+				"mo",
+				"_mousePad	MousePad"
+			],
+			[
+				"String",
+				"ToString()	string"
+			],
+			[
+				"Sett",
+				"SettingsFile	string"
+			],
+			[
+				"Mono",
+				"MonoBehaviour	MonoBehaviour"
+			],
+			[
+				"getCom",
+				"GetComponent<T>()	T"
+			],
+			[
+				"RectT",
+				"RectTransform	RectTransform"
+			],
+			[
+				"new",
+				"newImagePos	float"
+			],
+			[
+				"trans",
+				"Translate(float x, float y, float z)	void"
+			],
+			[
+				"fov",
+				"fieldOfViewHorizontal()	float"
+			],
+			[
+				"GetC",
+				"GetComponentInChildren(Type t)	Component"
+			],
+			[
+				"fo",
+				"fieldOfViewHorizontal()	float"
+			],
+			[
+				"fill",
+				"fillOrigin	int { get; set; }"
+			],
+			[
+				"getc",
+				"GetComponent<T>()	T"
+			],
+			[
+				"game",
+				"gameObject	GameObject { get; }"
+			],
+			[
+				"HIDE",
+				"HideInInspector	HideInInspector"
+			],
+			[
+				"GetCompo",
+				"GetComponents<T>()	T[]"
+			],
+			[
+				"Ass",
+				"Assert(bool condition, string message)	void"
+			],
+			[
+				"Insta",
+				"Instance	UIManager { get; }"
+			],
+			[
+				"Inst",
+				"Instance	GameManager { get; }"
+			],
+			[
+				"pad",
+				"padPoint	Vector2"
+			],
+			[
+				"Ra",
+				"Deg2Rad	float"
+			],
+			[
+				"Get",
+				"GetMouseButtonDown(int button)	bool"
+			],
+			[
+				"Uni",
+				"UnityEditor	UnityEditor"
+			],
+			[
+				"GetMouse",
+				"GetMouseButtonDown(int button)	bool"
+			],
+			[
+				"Area",
+				"AreaInDots	Vector2 { get; set; }"
+			],
+			[
+				"Mo",
+				"MousePad	MousePad"
+			],
+			[
+				"Vect",
+				"Vector2	Vector2"
+			],
+			[
+				"dot",
+				"dotsY	float"
+			],
+			[
+				"fixed",
+				"fixedDeltaTime	float { get; set; }"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "xai502.c",
+			"settings":
+			{
+				"buffer_size": 10495,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Run Makefile",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Deploy Hexo",
+					""
+				],
+				[
+					"Regenerate Hexo",
+					""
+				],
+				[
+					"Start Hexo Server",
+					""
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Deploy Hexo",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Hexo Deploy",
+					""
+				],
+				[
+					"Hexo Generate",
+					""
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Hexo Deploy",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Hexo Deploy",
+					""
+				],
+				[
+					"Hexo Generate ONLY",
+					""
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Hexo Deploy",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Hexo Deploy",
+					""
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Hexo Deploy",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Hexo Deploy && echo",
+					""
+				],
+				[
+					"Hexo Generate",
+					""
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Hexo Deploy && echo",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Run",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Run",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Run Makefile",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Run Makefile",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Run Makefile",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Kulture/ASP.NET.sublime-build",
+					""
+				]
+			],
+			[
+				"Run Makefile",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Package Control: Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"floobits",
+				"Floobits - Help"
+			],
+			[
+				"floob",
+				"Floobits - Join Workspace"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 246.0,
+		"history":
+		[
+			"hexo",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502"
+	],
+	"file_history":
+	[
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/xai502.c",
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/srom_3366.h",
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/Makefile",
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/ToDo.md",
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/xai502.sublime-project",
+		"/C/Users/Ferugi/Documents/My Games/UnrealEngine3/ShooterGame/Config/ShooterInput.ini",
+		"/C/Users/Ferugi/Downloads/Magery 2.macro",
+		"/C/Users/Ferugi/AppData/Roaming/Razor/Macros/Magery 2.macro",
+		"/C/Users/Ferugi/Utilities/Mouse Tester/config.ini",
+		"/C/Program Files (x86)/Steam/steamapps/common/Quake Live/76561197960824164/baseq3/repconfig.cfg",
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/uart.h",
+		"/C/Users/Ferugi/Documents/My Games/UnrealEngine3/ShooterGame/Config/Backup_ShooterInput.ini",
+		"/C/Users/Ferugi/AppData/Roaming/Razor/Macros/bandage.macro",
+		"/C/Users/Ferugi/AppData/Roaming/Razor/Macros/self heal.macro",
+		"/C/Users/Ferugi/AppData/Roaming/Razor/Macros/train mage.macro",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_usb_serial (1).zip/usb_serial/usb_serial.h",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_usb_serial (1).zip/usb_serial/usb_serial.c",
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/xai502.eep",
+		"/C/Users/Public/Daybreak Game Company/Installed Games/PlanetSide 2/UserOptions.ini",
+		"/C/Users/Ferugi/Downloads/DoOver.ini",
+		"/C/Users/Ferugi/Desktop/collectionVMexample.cs",
+		"/C/Users/Ferugi/AppData/Local/AimSync/AimSync.vshost.exe_Url_x01emo34sswiqxgnzveoyarqdhjicqkm/1.0.0.0/user.config",
+		"/C/Users/Ferugi/Documents/Visual Studio 2015/Projects/AimSync/AimSync/bin/Debug/5a9854d1-650d-44dd-bf71-3846b4ca9dad",
+		"/C/Users/Ferugi/Documents/Visual Studio 2015/Projects/AimSync/AimSync/bin/Debug/469f6641-1a37-4466-a66f-5c67de02bc91",
+		"/C/Program Files (x86)/Steam/steamapps/common/reflexfps/game.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/common/reflexfps/game_default.cfg",
+		"/C/Users/Public/Daybreak Game Company/Installed Games/PlanetSide 2/UserOptions.INI",
+		"/C/Program Files (x86)/Steam/steamapps/common/Quake Live/76561197960824164/baseq3/qzconfig.cfg",
+		"/C/Users/Ferugi/Documents/Visual Studio 2015/Projects/AimSync/.gitignore",
+		"/C/Users/Ferugi/Documents/Visual Studio 2015/Projects/AimSync/.git/info/exclude",
+		"/C/Users/Ferugi/Documents/My Games/Tribes Ascend/TribesGame/Config/TribesInput.ini",
+		"/C/Users/Ferugi/Documents/Visual Studio 2015/Projects/AimSync/UpgradeLog.htm",
+		"/C/Users/Ferugi/Documents/My Data Sources/DESKTOP.INI",
+		"/C/Users/Ferugi/Documents/Visual Studio 2015/Projects/AimSync/AimSync/bin/Debug/UserConfigs.xml",
+		"/C/Users/Ferugi/Documents/My Games/UnrealEngine3/ShooterGame/Config/ShooterEngine.ini",
+		"/C/Users/Ferugi/Documents/My Games/UnrealEngine3/ShooterGame/Config/ShooterGame.ini",
+		"/C/Users/Ferugi/Documents/My Games/UnrealEngine3/ShooterGame/Config/ShooterUI.ini",
+		"/C/Users/Ferugi/Desktop/Teensy Mouse Source/xai502/uart_example.c",
+		"/C/Users/Ferugi/AppData/Roaming/Sublime Text 3/Packages/Default/exec.py",
+		"/C/Users/Ferugi/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ferugi/Desktop/qsxcv/xai502/xai502.sublime-project",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_uart.zip/uart/uart.c",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_uart.zip/uart/example.c",
+		"/C/Users/Ferugi/Desktop/qsxcv/xai502/xai502.c",
+		"/C/Users/Ferugi/Desktop/qsxcv/xai502/uart_example.c",
+		"/C/Users/Ferugi/Desktop/qsxcv/xai502/usb_mouse.c",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/about/index.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/_config.yml",
+		"/C/Users/Ferugi/Documents/www/ferugi/startserver.bat",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/_posts/nodejs-on-godaddy-shared-cpanel.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/_posts/hello-world.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/node_modules/hexo-fs/README.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/node_modules/hexo/node_modules/.bin/hexo",
+		"/C/Users/Ferugi/Documents/www/ferugi/node_modules/hexo/node_modules/.bin/hexo.cmd",
+		"/C/Users/Ferugi/Documents/www/ferugi/node_modules/hexo/bin/hexo",
+		"/C/Users/Ferugi/Documents/www/ferugi/db.json",
+		"/C/Users/Ferugi/Documents/www/ferugi/node_modules/hexo-deployer-ftpsync/index.js",
+		"/C/Users/Ferugi/Documents/www/ferugi/node_modules/hexo-deployer-ftpsync/README.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/ferugi.sublime-project",
+		"/C/Users/Ferugi/Documents/www/ferugi/deploy.bat",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/_drafts/building-a-better-mouse.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/_posts/building-a-better-mouse.md",
+		"/C/Users/Ferugi/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ferugi/Documents/www/ferugi/regenerate.bat",
+		"/C/Users/Ferugi/Documents/www/ferugi/generate.bat",
+		"/C/Users/Ferugi/AppData/Roaming/Sublime Text 3/Packages/User/Hexo Generate Deploy.sublime-build",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/_data/links.yml",
+		"/C/Users/Ferugi/Documents/www/ferugi/desktop.ini",
+		"/C/Users/Ferugi/Documents/www/ferugi/themes/light/_config.yml",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/_posts/a-better-mouse.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/source/_posts/my-new-post.md",
+		"/C/Users/Ferugi/Documents/www/ferugi/themes/light/layout/_widget/tagcloud.ejs",
+		"/C/Users/Ferugi/Documents/www/ferugi/themes/light/languages/en.yml",
+		"/C/Users/Ferugi/Documents/www/ferugi/themes/light/layout/_widget/search.ejs",
+		"/C/Users/Ferugi/Documents/www/ferugi/themes/light/languages/no.yml",
+		"/C/Users/Ferugi/Documents/www/ferugi/themes/light/languages/default.yml",
+		"/C/Users/Ferugi/Documents/www/ferugi/themes/light/languages/es.yml",
+		"/C/Users/Ferugi/Documents/www/ferugi/.gitignore",
+		"/C/Users/Ferugi/AppData/Local/Temp/fz3temp-1/_config.yml",
+		"/C/Users/Ferugi/Downloads/README.md",
+		"/C/Users/Ferugi/AppData/Local/Temp/fz3temp-1/README.md",
+		"/C/Users/Ferugi/Downloads/cgi-node (1).js",
+		"/C/Users/Ferugi/Documents/www/ferugi/user/themes/ferugi/LICENSE",
+		"/C/Users/Ferugi/Downloads/cgi-node.js",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_starter-template.zip/starter-template/index.html",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_starter-template.zip/starter-template/css/style.css",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_materialize-v0.97.5.zip/materialize/css/materialize.css",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_milligram-1.1.0.zip/milligram-1.1.0/dist/milligram.css",
+		"/C/Users/Ferugi/AppData/Local/Temp/Temp1_milligram-1.1.0.zip/milligram-1.1.0/demo/index.html",
+		"/C/Users/Ferugi/Documents/www/ferugi/user/config/system.yaml",
+		"/C/Users/Ferugi/Documents/www/ferugi/user/themes/bootstrap/css/bootstrap-theme.css",
+		"/C/Users/Ferugi/Documents/www/ferugi/user/themes/bootstrap/css/bootstrap-theme.min.css",
+		"/C/Users/Ferugi/Documents/www/ferugi/user/themes/bootstrap/blueprints.yaml",
+		"/C/Users/Ferugi/Documents/Web/themes/ferugi/layout/page.ejs",
+		"/C/Users/Ferugi/Documents/Web/_config.yml",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/README.md",
+		"/C/Users/Ferugi/Documents/Web/themes/ferugi/.git/config",
+		"/C/Users/Ferugi/Documents/Web/themes/ferugi/.gitignore",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/index.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/_partial/article.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/source/css/_partial/sidebar.styl",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/source/css/_partial/header.styl",
+		"/C/Users/Ferugi/Documents/Web/source/_posts/hello-world.md",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/post.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/tag.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/_partial/head.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/archive.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/category.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/layout.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/page.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/_config.yml",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/layout/_partial/archive.ejs",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/languages/default.yml",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/Gruntfile.js",
+		"/C/Users/Ferugi/Documents/Web/scaffolds/draft.md",
+		"/C/Users/Ferugi/Documents/Web/scaffolds/page.md",
+		"/C/Users/Ferugi/Documents/Web/scaffolds/post.md",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/source/js/script.js",
+		"/C/Users/Ferugi/Documents/Web/themes/landscape/LICENSE",
+		"/C/wamp64/wampmanager.ini",
+		"/C/Users/Ferugi/Desktop/Raneto-master/README.md",
+		"/C/wamp64/www/index.php",
+		"/C/Users/Ferugi/Documents/Web Dev/.htaccess",
+		"/C/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/dbserver/mysql5710x160216010131/my.ini",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/index.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/binaries/conf_files/php.ini",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/Ferugi.com/config.php",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/Ferugi.com/themes/ferugi/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"uart",
+			"BUTTON_DPI",
+			"else",
+			"dpi",
+			"mouse",
+			"fov",
+			"uart",
+			"pitch",
+			"mouse",
+			"yaw",
+			"MouseSensitivity",
+			"sensitivity",
+			"dpi",
+			"usb_mouse",
+			"self.debug",
+			"self.append_string(proc",
+			"self.append_string",
+			"Assignment",
+			"uart_handle_input",
+			"enable_bootloader",
+			"uart",
+			"Node.js",
+			"echo",
+			"},\n",
+			"]\n",
+			"CGI_NODE_SESSIONDIR",
+			"name",
+			"accountname",
+			"family",
+			"current_",
+			"page",
+			"pages",
+			"deve",
+			"debug",
+			"content",
+			"max",
+			"renderer2",
+			"		\"",
+			"cycle",
+			"DEFAULT",
+			"read_dpi_i",
+			"();\n",
+			"set_dpi_array",
+			"get_dpi_array",
+			"get_current_dpi",
+			"dpi",
+			"DPI_STEP_INDEX_ADDR",
+			"DPI_DPI_ARRAY_SIZE_ADDR",
+			"DPI_FIRST_MULTI_ADDR",
+			"write_dpi",
+			"write_",
+			"read_",
+			"arra",
+			"DEF",
+			"defualt",
+			"spi_reg_read",
+			"spi_reg_write",
+			"	\n",
+			"}\n",
+			"CURRENT",
+			"current_step",
+			"_current_step",
+			"spi_reg_write",
+			"set_dpi",
+			"dpi_steps",
+			"dpi_step_max",
+			"UART",
+			"DPI",
+			"spdr",
+			"RWAL",
+			" |",
+			"1",
+			"                      ",
+			"/*",
+			"TCC",
+			"clkpr",
+			"example",
+			"dpi",
+			"50",
+			"mouse_buttons",
+			"if (wIndex == MOUSE_INTERFACE) {",
+			"		if (wIndex == MOUSE_INTERFACE) {\n",
+			"mouse_buttons",
+			"SOFI",
+			"spi_reg_read",
+			"var",
+			"dpi",
+			"char",
+			"SPI_REG_WRITE",
+			"SPI_REG_READ",
+			"SPI_SEND",
+			"byte",
+			"button",
+			"RWAL",
+			"UEINTX & (1<<RWAL",
+			"UEINTX & (1<<RWAL)",
+			"sensitivity",
+			"wheel",
+			"usb_mouse_move",
+			"ISR",
+			"cfg",
+			"endpoint_config_table",
+			"EP_SINGLE_BUFFER",
+			"SREG",
+			"wheel",
+			"process",
+			"Rotary",
+			"char",
+			"SS_LOW()",
+			"SS_LOW",
+			"SS_HIGH;",
+			"SS_LOW",
+			"ss_low",
+			"eepr",
+			"eep",
+			"PORTB",
+			"DPI",
+			"\\n",
+			"srom",
+			"mouse_buttons",
+			"dpi",
+			"Left",
+			"PIN",
+			"mouse_buttons",
+			" MOUSE_BUFFER",
+			"refresh",
+			"1920",
+			"sensitivity"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"write_dpi_array",
+			"read_dpi_array",
+			"read_current_dpi",
+			"DPI_INDEX_ADDR",
+			"DPI_ARRAY_SIZE_ADDR",
+			"DPI_MULTI_ADDR",
+			"set_dpi",
+			"set_",
+			"get_",
+			"spi_read",
+			"spi_write",
+			"_index",
+			"uint8_t",
+			"spi_reg_write",
+			"spi_reg_read",
+			"spi_send",
+			"",
+			"SS_HIGH();",
+			"",
+			"SS_HIGH();",
+			"SS_LOW()",
+			",\\n",
+			"UserInterface",
+			"Game",
+			"_data",
+			"_current.NotifyPropertyChanged(MethodBase.GetCurrentMethod().Name)",
+			"_image",
+			"UniqueActive",
+			"MenuStatus",
+			"Counter",
+			"Time",
+			"_halfHorizontalFOV",
+			"_halfVerticalFOV",
+			"Camera.main",
+			"ferugi",
+			"Input",
+			"_cameraTargetRot",
+			"_characterTargetRot",
+			"_maximumX",
+			"_minimumX",
+			"_sensitivity",
+			"Sensitivity",
+			"_c",
+			"_m",
+			"_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "xai502.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10202,
+								10202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6705.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 314.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "xai502.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
