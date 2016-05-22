@@ -29,7 +29,8 @@
 #include "usb_mouse.h"
 #include "srom_3366.h"
 
-#define BAUD_RATE 38400
+#define DEBOUNCE_TIME 8
+#define USB_FRAME_DURATION 8000
 
 #define PORT_SPI PORTB
 #define DDR_SPI	DDRB
@@ -338,7 +339,7 @@ int main(void) {
 	// Measure Timer Set & Assignment duration
 	uint16_t assignment_duration = TCNT1; 
 
-	uint16_t usb_frame_duration = 8000;
+	uint16_t usb_frame_duration = USB_FRAME_DURATION;
 	usb_frame_duration -= assignment_duration;
 
 	// Measure Wheel Polling duration
@@ -367,11 +368,24 @@ int main(void) {
 		TCNT1 = 0; // Reset Timer Count
 		SS_HIGH();
 
+		// Shift Debounce Array and generate debounce mask
+		static uint8_t debounce_array[DEBOUNCE_TIME];
+		uint8_t debounce_mask = 0;
+
+		for (int i = 0; i < (DEBOUNCE_TIME - 1); i++){
+			debounce_array[(i + 1)] = debounce_array[i];
+			debounce_mask |= debounce_array[i];
+		}
+
 		// Button Read Loop
 		uint8_t button_mask = 0;
 		while ( TCNT1 < button_period ) {
 			button_mask |= button_read();
 		}
+
+		// Add Button Read into debounce array and apply debounce to button_mask
+		debounce_array[0] = button_mask;
+		button_mask |= debounce_mask;
 
 		// Wheel Read
 		int8_t wheel = wheel_read();
