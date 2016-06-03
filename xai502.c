@@ -45,11 +45,12 @@
 #define PORT_BUTTON PORTD
 #define DDR_BUTTON DDRD
 #define PIN_BUTTON PIND
-#define BUTTON_LEFT 	3
+#define BUTTON_LEFT 	5
 #define BUTTON_MIDDLE	1
 #define BUTTON_RIGHT	0
 #define BUTTON_BACK		4
-#define BUTTON_FORWARD	2
+#define BUTTON_FORWARD	3
+#define BUTTON_DPI		2
 
 #define PORT_WHEEL PORTC
 #define DDR_WHEEL DDRC
@@ -57,14 +58,14 @@
 #define WHEEL_A 	6
 #define WHEEL_B		7
 
-
 static void pins_init(void) {
 	// Button Pins
 	DDR_BUTTON &= ~(1<<BUTTON_LEFT); PORT_BUTTON |= (1<<BUTTON_LEFT); // Pullup
 	DDR_BUTTON &= ~(1<<BUTTON_MIDDLE); PORT_BUTTON |= (1<<BUTTON_MIDDLE); // Pullup
 	DDR_BUTTON &= ~(1<<BUTTON_RIGHT); PORT_BUTTON |= (1<<BUTTON_RIGHT); // Pullup
-	DDR_BUTTON &= ~(1<<BUTTON_FORWARD); PORTD |= (1<<BUTTON_FORWARD); 
-	DDR_BUTTON &= ~(1<<BUTTON_BACK); PORTD |= (1<<BUTTON_BACK);
+	DDR_BUTTON &= ~(1<<BUTTON_FORWARD); PORT_BUTTON |= (1<<BUTTON_FORWARD); 
+	DDR_BUTTON &= ~(1<<BUTTON_BACK); PORT_BUTTON |= (1<<BUTTON_BACK);
+	DDR_BUTTON &= ~(1<<BUTTON_DPI); PORT_BUTTON |= (1<<BUTTON_DPI);
 
 	// Wheel Pins
 	DDR_WHEEL &= ~(1<<WHEEL_A); PORT_WHEEL |= (1<<WHEEL_A); // Wheel A pullup
@@ -114,17 +115,32 @@ static inline int8_t spi_read(const uint8_t address) {
 	return data;
 }
 
+uint8_t EEMEM stored_dpi_index;
+const uint8_t dpi_values[5] = {0x03, 0x0b, 0x17, 0x2f, 0x47};
+const uint8_t dpi_index_max = 4;
+static uint8_t dpi_index;
+
 static void set_dpi(uint8_t multi) {
 	spi_write(0x0f, multi);
 }
 
-uint8_t EEMEM stored_dpi;
+static void cycle_dpi(void){
+	_delay_ms(1000);
+
+	if (dpi_index < dpi_index_max) {
+		dpi_index++;
+	} else if (dpi_index == dpi_index_max) {
+		dpi_index = 0;
+	}
+
+	eeprom_write_byte(&stored_dpi_index, dpi_index);
+
+	set_dpi(dpi_values[dpi_index]);
+}
 
 static void eeprom_init(void) {
-	eeprom_write_byte(&stored_dpi, 0x17);
-	uint8_t new_dpi = eeprom_read_byte(&stored_dpi);
-
-	set_dpi(new_dpi);
+	dpi_index = eeprom_read_byte(&stored_dpi_index);
+	set_dpi(dpi_values[dpi_index]);
 }
 
 static void sensor_init(void) { 
@@ -328,7 +344,7 @@ int main(void) {
 
 	spi_init();
 	
-	//eeprom_init();
+	eeprom_init();
 
 	sensor_init();
 
@@ -368,6 +384,19 @@ int main(void) {
 		TCNT1 = 0; // Reset Timer Count
 		SS_HIGH();
 
+		// Check for DPI change or bootloader combination
+		if (!(PIN_BUTTON & (1<<BUTTON_DPI))) {
+			if (!(PIN_BUTTON & (1<<BUTTON_FORWARD)) &&
+				!(PIN_BUTTON & (1<<BUTTON_BACK))) {
+				enter_bootloader_mode();
+			}
+			
+			cycle_dpi();
+		}
+
+		// Wheel Read
+		int8_t wheel = wheel_read();
+
 		// Shift Debounce Array and generate debounce mask
 		static uint8_t debounce_array[DEBOUNCE_TIME];
 		uint8_t debounce_mask = 0;
@@ -387,10 +416,8 @@ int main(void) {
 		debounce_array[0] = button_mask;
 		button_mask |= debounce_mask;
 
-		// Wheel Read
-		int8_t wheel = wheel_read();
-
-		while ( TCNT1 < pre_sensor_period ); // Wait to align Sensor Read
+		// Wait to align Sensor Read
+		while ( TCNT1 < pre_sensor_period ); 
 		fast_usb_mouse_update( button_mask , wheel );
 	}
 }
